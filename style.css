@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+
+}
+
+body {
+  background-color: #001f3f;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  padding: 20px 60px;
+  background: #001c38
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; /* Optional for better alignment inside header */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #3ab6ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #3ab6ff;
+}
+
+.btn.download {
+  padding: 10px 20px;
+  background-color: #ff3570;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.2s;
+  text-decoration: none;
+  align-items: center;
+}
+
+.btn.download:hover {
+  background-color: #dd648a;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  min-height: 80vh;
+  flex-wrap: wrap;
+}
+
+
+.hero-text {
+  max-width: 500px;
+
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hero-text h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.highlight {
+  color: #00bfff;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  color: #ccc;
+  line-height: 2;
+}
+
+.socials a {
+  color: #00bfff;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #00bfff;
+  color: #f0e1e1;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+.btn:hover {
+  background: #009acd;
+}
+
+.btn.about{
+  background-color:#0f172a;
+}
+.btn.about:hover {
+  background: #37393a;
+}
+
+.hero-img .glow-circle {
+  border-radius: 50%;
+  padding: 5px;
+  background: radial-gradient(circle at center, #00bfff, #6f00ff);
+  box-shadow: 0 0 30px #00bfff;
+}
+
+.hero-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #0f172a;
+  object-fit: cover;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: #a30a0a;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
