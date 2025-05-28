@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nishant's Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('Btech-CSE.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+      backdrop-filter: blur(6px); /* Frosted glass effect */
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    }
+
+    header {
+      background: #001c38;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .logo span {
+      color: #3ab6ff;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #ccc;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li a.active {
+      color: #3ab6ff;
+    }
+
+    .btn.download {
+      padding: 10px 16px;
+      background-color: #ff3570;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: 0.2s;
+      text-decoration: none;
+    }
+
+    .btn.download:hover {
+      background-color: #dd648a;
+    }
+
+    .image-box {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      margin: 20px auto;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .container header {
+      background: none;
+      padding: 0;
+      display: block;
+      text-align: center;
+    }
+
+    .container header h1 {
+      margin: 10px 0 0 0;
+      color: #2c5364;
+    }
+
+    .container header p {
+      margin: 4px 0;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #203a43;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills-list li {
+      background: #203a43;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    a {
+      color: #2c5364;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header with Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"><span>M</span>y Port<span>folio</span></div>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="login.html">About</a></li>
+        <li><a href="hello.html">Services</a></li>
+        <li><a href="hello.html">Skills</a></li>
+        <li><a href="hello.html">Projects</a></li>
+        <li><a href="signup.html">Contact</a></li>
+      </ul>
+<a href="ResumePdf.pdf" download class="btn download">
+  <i class="fas fa-download"></i> Download CV
+</a>
+    </nav>
+  </header>
+  
+  <!-- Image -->
+  <div class="image-box">
+    <img src="Nishant.png.jpeg" alt="Nishant's Photo">
+  </div>
+
+  <!-- Resume Content -->
+  <div class="container">
+    <header>
+      <h1>Nishant</h1>
+      <p>Web Developer | Programmer | CSE Student</p>
+      <p>Email: kannaujiyanishant1@gmail.com | Phone: +91-7309902473</p>
+    </header>
+
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        Enthusiastic and detail-oriented web developer with a passion for creating user-friendly websites and applications. Proficient in HTML, CSS, JavaScript, C, and C++. Currently pursuing B.Tech in Computer Science Engineering.
+      </p>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>B.Tech in Computer Science Engineering</strong><br>
+          Central University of Punjab Bathinda, 2024 - 2028
+        </li>
+        <li>
+          <strong>12th Standard</strong><br>
+          Premlata Balika Inter College Achhiya Mehdawal Sant Kabir Nagar Uttar Pradesh, 2022 - 2024
+        </li>
+        <li>
+          <strong>10th Standard</strong><br>
+          Atarvash Tilakdhari Inter College Seeyar Mehdawal Sant Kabir Nagar Uttar Pradesh, 2020 - 2022
+        </li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Firebase</li>
+        <li>Git & GitHub</li>
+        <li>AutoCAD</li>
+        <li>Figma & Canva</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Floor Plan</strong> – Built using AutoCAD.</li>
+        <li><strong>Food Delivery App</strong> – Built using Flutter and Firebase with backend integration.</li>
+        <li><strong>Portfolio Website</strong> – Responsive personal portfolio using HTML, CSS, and JavaScript.</li>
+        <li><strong>Amazon Website Clone</strong> – Responsive Amazon website prototype using HTML, CSS, and JavaScript.</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Phone No: <a href="tel:7309902473">7309902473</a></p>
+      <p>WhatsApp: <a href="https://alvo.chat/63dY" target="_blank">https://alvo.chat/63dY</a></p>
+      <p>Gmail: <a href="mailto:kannaujiyanishnat1@gmail.com">kannaujiyanishnat1@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Nishant1029" target="_blank">https://github.com/Nishant1029</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/nishant-nishant-835225366/" target="_blank">https://www.linkedin.com/in/nishant-nishant-835225366/</a></p>
+    </section>
+     
+
+  </div>
+</body>
+</html>
